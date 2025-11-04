@@ -1,0 +1,72 @@
+// @import url();
+* {
+  font-family: sans-serif;
+}
+
+.container {
+  height: 10vh;
+  border-bottom: 1px solid #b8c5c5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  position: sticky;
+  top: 0px;
+  background-color: #fff5f5;
+  // background: linear-gradient(160deg,rgb(253, 255, 204),#ffdada);
+}
+.logo-box {
+  display: flex;
+  align-items: center;
+  span{
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+}
+
+.logo {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  text-align: center;
+  align-content: center;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #ffffff;
+  margin: 0px 20px;
+  background-color: #9929fb;
+  transition: 0.1s;
+}
+.logo:hover{
+  cursor: pointer;
+  background-color: #9419ff;
+  
+}
+.text {
+  font-size: 1.3rem;
+  font-family: Tahoma;
+}
+
+.navbar {
+  ul {
+    display: flex;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    li {
+      list-style: none;
+      margin: 0px 5px;
+      font-size: 0.8rem;
+      margin: 0px 20px;
+      padding: 10px 10px;
+      border-radius: 3px;
+      transition: background linear 0.8s;
+    }
+    a:hover {
+      cursor: pointer;
+      color: rgb(127, 115, 115);
+    }
+  }
+}
