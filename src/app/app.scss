@@ -2,7 +2,6 @@
 * {
   font-family: sans-serif;
 }
-
 .container {
   height: 10vh;
   // border-bottom: 1px solid #b8c5c5;
@@ -18,13 +17,12 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  span{
+  span {
     font-size: 1.3rem;
     font-weight: 400;
     margin: 0px 10px;
   }
 }
-
 .logo {
   height: 2rem;
   width: 2rem;
@@ -38,21 +36,17 @@
   background-color: #9929fb;
   transition: 0.1s;
 }
-.logo:hover{
+.logo:hover {
   cursor: pointer;
   background-color: #9419ff;
-  
 }
-
-
-.navbar-opt{
+.navbar-opt {
   ul {
     display: flex;
     a {
       text-decoration: none;
       color: black;
     }
-
     li {
       list-style: none;
       font-size: 0.7rem;
@@ -67,56 +61,41 @@
     }
   }
 }
- 
- .slider{
+.slider {
   display: none;
- }
+}
 //  div,nav,span{
 //   border: 1px solid red;
 //  }
 
- @media (min-width: 300px) and (max-width:600px){
- 
- 
-        .container{
-          height: 4rem;
-          padding: 10px 20px;
-
-
-
-       }
-       .logo-box{
-        height: 100%;
-      
-        span{
-          font-size: 20px;
-        }
-      
-       }
-       .logo{
-        height: 45px;
-        width: 45px;
-        font-size: 18px;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-       }
-        
-        .navbar-opt{
-          display: none;
-        }
-        .slider{
-          display: block;
-          font-size: 2rem;
-          text-align: center;
-          line-height: 150%;
-          
-
-         
-          
-
-        }
-      
- }
+@media (min-width: 300px) and (max-width: 600px) {
+  .container {
+    height: 4rem;
+    padding: 5px 20px;
+  }
+  .logo-box {
+    height: 100%;
+    span {
+      font-size: 20px;
+    }
+  }
+  .logo {
+    height: 45px;
+    width: 45px;
+    font-size: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .navbar-opt {
+    display: none;
+  }
+  .slider {
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 150%;
+  }
+}
