@@ -80,25 +80,23 @@
  
         .container{
           height: 4rem;
-          padding: 0px 10px;
+          padding: 10px;
 
 
 
        }
        .logo-box{
-        border: 1px solid black;
         height: 100%;
       
         span{
-          font-size: 15px;
-          font-weight: bold;
+          font-size: 25px;
         }
       
        }
        .logo{
         height: 45px;
         width: 45px;
-        font-size: 15px;
+        font-size: 20px;
         border-radius: 50%;
         display: flex;
         justify-content: center;
@@ -111,7 +109,7 @@
         }
         .slider{
           display: block;
-          font-size: 1.2rem;
+          font-size: 2rem;
           text-align: center;
           line-height: 150%;
           
