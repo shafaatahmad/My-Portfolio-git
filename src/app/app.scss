@@ -5,22 +5,23 @@
 
 .container {
   height: 10vh;
-  border-bottom: 1px solid #b8c5c5;
+  // border-bottom: 1px solid #b8c5c5;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 30px;
   position: sticky;
   top: 0px;
-  background-color: #fff5f5;
-  // background: linear-gradient(160deg,rgb(253, 255, 204),#ffdada);
+  background-color: #2ee95a;
 }
 .logo-box {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   span{
     font-size: 1.3rem;
     font-weight: 400;
+    margin: 0px 10px;
   }
 }
 
@@ -33,7 +34,7 @@
   font-size: 1.5rem;
   font-weight: bolder;
   color: #ffffff;
-  margin: 0px 20px;
+  margin: 0px 10px;
   background-color: #9929fb;
   transition: 0.1s;
 }
@@ -42,12 +43,9 @@
   background-color: #9419ff;
   
 }
-.text {
-  font-size: 1.3rem;
-  font-family: Tahoma;
-}
 
-.navbar {
+
+.navbar-opt{
   ul {
     display: flex;
     a {
@@ -57,12 +55,11 @@
 
     li {
       list-style: none;
-      margin: 0px 5px;
-      font-size: 0.8rem;
+      font-size: 0.7rem;
       margin: 0px 20px;
       padding: 10px 10px;
-      border-radius: 3px;
       transition: background linear 0.8s;
+      font-weight: bolder;
     }
     a:hover {
       cursor: pointer;
@@ -70,3 +67,58 @@
     }
   }
 }
+ 
+ .slider{
+  display: none;
+ }
+ div,nav,span{
+  border: 1px solid red;
+ }
+
+ @media (min-width: 300px) and (max-width:479px){
+ 
+ 
+        .container{
+          height: 2rem;
+          padding: 0px 10px;
+
+
+
+       }
+       .logo-box{
+        border: 1px solid black;
+        height: 100%;
+      
+        span{
+          font-size: 15px;
+          font-weight: bold;
+        }
+      
+       }
+       .logo{
+        height: 35px;
+        width: 35px;
+        font-size: 15px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+       }
+        
+        .navbar-opt{
+          display: none;
+        }
+        .slider{
+          display: block;
+          font-size: 1.2rem;
+          text-align: center;
+          line-height: 150%;
+          
+
+         
+          
+
+        }
+      
+ }
