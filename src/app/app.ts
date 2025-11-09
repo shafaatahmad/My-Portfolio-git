@@ -9,5 +9,10 @@ import { Main } from "./main/main";
   styleUrl: './app.scss'
 })
 export class App {
+  slider:boolean=false
+
+  toggleSlider(){
+    this.slider = !this.slider
+  }
   
 }

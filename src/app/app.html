@@ -14,7 +14,23 @@
             <a routerLink="contect"routerLinkActive="active"><li>CONTACT US</li></a>
         </ul>
     </div>
-    <span class="slider">☰</span>
+    <span class="slider" (click)="toggleSlider()">☰</span>
+    
 </nav>
+  @if(slider){
+        <div class="slider-list">
+            <ul>
+            <a routerLink="home"routerLinkActive="active"><li>HOME</li></a>
+            <a routerLink="about"routerLinkActive="active"><li>ABOUT</li></a>
+            <a routerLink="experience"routerLinkActive="active"><li>EXPERIENCE</li></a>
+            <a routerLink="projects"routerLinkActive="active"><li>PROJECTS</li></a>
+            <a routerLink="contect"routerLinkActive="active"><li>CONTACT US</li></a>
+        </ul>
+    
+
+        </div>
+
+    }
+
 
     <router-outlet></router-outlet>

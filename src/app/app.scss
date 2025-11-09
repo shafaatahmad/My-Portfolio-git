@@ -99,3 +99,29 @@
     line-height: 150%;
   }
 }
+  
+  ul{
+    background: transparent;
+    backdrop-filter: blur(5px);
+    border-radius: 0px 0px 5px 5px;
+    height: 160px;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 0px;
+    top: 8rem;
+    border: 1px solid black;
+    a{
+      color: rgb(168, 168, 168);
+      text-decoration: none;
+      padding: 0px 15px;
+    }
+    li{
+      list-style: none;
+      font-size: 0.7rem;
+      
+    }
+  }

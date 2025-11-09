@@ -98,12 +98,11 @@
         padding-top: 30px;
 
        } 
-    .fname{
-    width: 30%;
+    
    }
    .img-bar{
-    height: 25vh;
-    width: 40vw;
+    height: 60px;
+    width: 70vw;
     margin: 10px;
    }
    .name-bar{
@@ -114,9 +113,10 @@
     align-items: center; 
     .fname{
         margin: 10px 0px;
-        width: 40%;
+        width: 100px;
         text-align: center;
         font-size: 1.2rem ;   
+        border: 2px solid red;
     }
     button{
         margin-top: 20px;
@@ -138,4 +138,3 @@
   
 
    
-}
